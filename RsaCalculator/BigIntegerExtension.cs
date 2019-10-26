@@ -113,7 +113,7 @@
         /// <returns>The BigInteger.</returns>
         /// <remarks>
         /// The source byte array is left untouched.
-        /// JetBrains' BigInteger constructor uses big-endian byte arrays, whereas .Net's uses little-endian byte arrays.
+        /// Some other BigInteger constructors use big-endian byte arrays, whereas .Net's uses little-endian byte arrays.
         /// </remarks>
         public static BigInteger FromBigEndianByteArray(byte[] value)
         {
